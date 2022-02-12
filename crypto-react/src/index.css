@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.app {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.news-feed {
+  background-color: rgb(204, 204, 231);
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0/0.2);
+  max-width: 300px;
+  text-align: center ;
+}
+
+.currency-converter {
+  background-color: rgb(230,233, 211);
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  text-align: center;
+
+}
+
+.exchange-rate {
+  background-color: rgb(221, 230, 221);
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);}
+
+  input {
+    border: none;
+    padding: 10px;
+  }
+
+  select {
+    padding: 10px;
+    border: none;
+  }
+
+  #convert-button {
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+  }
+
+  #convert-button:hover {
+    background-color: rgb(204, 196, 231);
+  }
+
+  #sec-currency {
+    background-color: rgb(211, 227, 240);
+  }
